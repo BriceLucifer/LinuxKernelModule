@@ -93,4 +93,4 @@ sudo rmmod dev_nr
 ---
 
 ## 3_read_and_write
-停更一下 期末考试。。。
+停更一下 后续继续
