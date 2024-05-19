@@ -78,7 +78,7 @@ int main(){
 dmesg | tail  # 查看状态
 ```
 对于之前写的test.c文件 使用```gcc test.c -o test``` gcc编译之后用于检测 device_open是否正常使用
-在使用**./test** 之前 我们先更改一下*/dev/mydevice*的权限
+在使用./test之前,我们先更改一下/dev/mydevice的权限
 ```bash
 sudo chmod +666 /dev/mydevice
 # 之后使用./test
