@@ -48,7 +48,7 @@ dmesg | tail
 查看内核信息 在内核之后就可以查看所写的设备文件
 可以使用```cat /proc/devices ```查看设备文件的主编号和小编号 这里选择了 **90 0**
 
-然后使用```sudo mknod /dev/devices c 90 0```创建设备文件
+然后使用```sudo mknod /dev/device c 90 0```创建设备文件
 
 查看/dev/mydevice
 ```bash
